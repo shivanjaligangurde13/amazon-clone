@@ -191,7 +191,7 @@
 
 .hero-section{
     background-image: url("./hero.jpg");
-    height: 350px;
+    height: 390px;
     width: 100%;
     background-size: cover;
     background-position: center center;
@@ -396,6 +396,7 @@ ul a{
     margin-top: 5px;
 
 }
+
 
 
 
