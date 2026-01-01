@@ -192,13 +192,15 @@
 .hero-section{
     background-image: url("./hero.jpg");
     height: 350px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
     display: flex;
     justify-content: center;
-    background-size: cover;
+    align-items: flex-end;
+    margin-top: 60px;
 }
-.hero-section{
-    border: 3px solid red;
-}
+
 
 .hero-message{
     background-color: white;
@@ -392,4 +394,5 @@ ul a{
     margin-top: 5px;
 
 }
+
 
