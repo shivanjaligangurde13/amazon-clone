@@ -198,9 +198,8 @@
     display: flex;
     justify-content: center;
     align-items: flex-end;
-    margin-top: 60px;
+    margin-top: 110px;
 }
-
 
 .hero-message{
     background-color: white;
@@ -210,10 +209,9 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    font-size: 0.85rem;
-    align-self: flex-end;margin-bottom: 50px;
-    
+    margin-bottom: 25px;
 }
+
 .hero-message a{
     color: #007185;
     text-decoration: none;
@@ -394,5 +392,6 @@ ul a{
     margin-top: 5px;
 
 }
+
 
 
