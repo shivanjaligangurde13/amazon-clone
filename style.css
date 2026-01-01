@@ -1,8 +1,9 @@
 *{
-    margin: 0px;
-    font-family: arial;
-    border: border-box;
-}   
+    margin: 0;
+    font-family: Arial, sans-serif;
+    box-sizing: border-box;
+}
+
 .navbar{
     height: 60px;
     background-color: #0f1111;
@@ -91,7 +92,8 @@
     width: 45.28px;
     height: 45px;
     display: flex;
-    margin-top: 40px;
+    display: flex;
+    align-items: center;
 
 }
 .flag-image{
@@ -190,12 +192,15 @@
 
 
 .hero-section{
-    background-image: url("/hero.jpg");
+    background-image: url("hero.jpg");
     height: 350px;
+    background-size: cover;
+    background-position: center;
     display: flex;
     justify-content: center;
-    background-size: cover;
+    align-items: flex-end;
 }
+
 .hero-message{
     background-color: white;
     color: black;
@@ -216,8 +221,10 @@
 .shop-section{
     display: flex;
     justify-content: space-evenly;
-    background-color:rgb(231, 142, 249);
+    background-color: #e3e6e6;
+    padding-bottom: 20px;
 }
+
 .box{
     margin-top: 15px;
     /* border: 2px solid black; */
@@ -314,13 +321,12 @@
     text-decoration: none;
 }
 .box-image2{
-    margin-top: 15px;
-    width: 300x;
+    width: 100%;
     height: 300px;
-    background-size: auto;
+    background-size: cover;
     background-position: center;
-    
 }
+
 /* Footer */
 footer{
     margin-top: 15px;
@@ -387,3 +393,4 @@ ul a{
 .copyright{
     margin-top: 5px;
 }
+
