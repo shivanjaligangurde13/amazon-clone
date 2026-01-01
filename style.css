@@ -190,7 +190,7 @@
 
 
 .hero-section{
-    background-image: url("/hero.jpg");
+    background-image: url("hero.jpg");
     height: 350px;
     display: flex;
     justify-content: center;
@@ -386,4 +386,5 @@ ul a{
 }
 .copyright{
     margin-top: 5px;
+
 }
