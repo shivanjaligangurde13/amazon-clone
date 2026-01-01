@@ -190,12 +190,16 @@
 
 
 .hero-section{
-    background-image: url("hero.jpg");
+    background-image: url("./hero.jpg");
     height: 350px;
     display: flex;
     justify-content: center;
     background-size: cover;
 }
+.hero-section{
+    border: 3px solid red;
+}
+
 .hero-message{
     background-color: white;
     color: black;
@@ -388,3 +392,4 @@ ul a{
     margin-top: 5px;
 
 }
+
